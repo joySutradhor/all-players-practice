@@ -1,0 +1,23 @@
+
+.parentMovie{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 15px;
+}
+
+.movieContainer{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr) ;
+    gap: 15px;
+}
+
+.summeryCart{
+    background-color: lightblue;
+    position: sticky;
+    top: 50px;
+    padding: 15px;
+}
+.summery{
+    text-align: center;
+    
+}
